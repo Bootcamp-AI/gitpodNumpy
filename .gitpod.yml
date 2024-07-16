@@ -2,7 +2,6 @@
 tasks:
   - init: pip3 install -r requirements.txt
     command: |            
-            python3 src/app.py
-            code .
-            open: app.py
+          python3 src/app.py
+          code app.py
 
